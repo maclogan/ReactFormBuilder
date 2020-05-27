@@ -1,0 +1,42 @@
+x Change from flexbox to grid (we don't need to have responsive growth and shirnk, car e more about positioning in 2D space.)
+x Make fields draggable
+- Create export feature
+- Retain state on refresh
+- Add additional form fields
+- Add additional field options
+- Change Cell Menu location to sidebar
+- Add new field by dragging components from sidebar
+- When selecting field, show field data in sidebar for editing
+- Allow importing
+- Design the JSON structure (Maybe instead of creating as JSON doc, can create a React component that can then just be imported)
+
+
+{
+    form: {
+        step: {
+            group: {
+                fields: [
+                    {
+                        fieldType: 'input',
+                        caption: '',
+                        altText: '',
+                        id: '',
+                        class: '',
+                        name: '',
+                        value: '',
+                        options: {
+                            required: true,
+                            defaultValue: '',
+                            inputType: '',
+                            minLength: '',
+                            maxLength: '',
+                            regex: '',
+                            for: '',
+                            selected: '',
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
